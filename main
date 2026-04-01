@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ana Sayfa</title>
+</head>
+<body>
+    <h1>Ana Sayfa</h1>
+    <ul>
+        <li><a href="konu.html?konu=1">Konu Başlığı 1</a></li>
+        <li><a href="konu.html?konu=2">Konu Başlığı 2</a></li>
+        <li><a href="konu.html?konu=3">Konu Başlığı 3</a></li>
+    </ul>
+</body>
+</html>
