@@ -4,11 +4,38 @@
     <title>Ana Sayfa</title>
 </head>
 <body>
+    </form>
+    <label>Kullanıcı Adı:</label>
+        <input type="text" required><br>
+    </form>
     <h1>Ana Sayfa</h1>
     <ul>
         <li><a href="konu.html?konu=1">Konu Başlığı 1</a></li>
         <li><a href="konu.html?konu=2">Konu Başlığı 2</a></li>
         <li><a href="konu.html?konu=3">Konu Başlığı 3</a></li>
     </ul>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCnQXfmnz0Z5X717A0toKktGbKoJ2xzRdk",
+    authDomain: "website-514a9.firebaseapp.com",
+    projectId: "website-514a9",
+    storageBucket: "website-514a9.firebasestorage.app",
+    messagingSenderId: "783398549549",
+    appId: "1:783398549549:web:f40304d2ace9d53fa5a0a4",
+    measurementId: "G-9Z9H6B3TZ5"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
